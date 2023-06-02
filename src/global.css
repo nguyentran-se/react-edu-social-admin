@@ -1,0 +1,10 @@
+.react-select-container .react-select__control {
+  height: 56px;
+  border-radius: 10px;
+}
+.react-select-container .react-select__control.react-select__control--small {
+  height: 38px;
+}
+.react-select__control + .react-select__menu {
+  z-index: 3;
+}
